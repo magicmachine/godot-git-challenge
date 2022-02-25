@@ -10,6 +10,9 @@ extends Node
 func _ready():
 	pass # Replace with function body.
 
+func uppercase(thing):
+	return thing.to_upper()
+
 func echo(thing):
 	return thing
 
