@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 174.0
+margin_bottom = 68.0
+text = "Welcome to the Magic Machine challenge"
+__meta__ = {
+"_edit_use_anchors_": false
+}
