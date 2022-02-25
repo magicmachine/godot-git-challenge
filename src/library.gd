@@ -10,6 +10,9 @@ extends Node
 func _ready():
 	pass # Replace with function body.
 
+func sha256(thing):
+	return thing.sha256_text()
+
 func echo(thing):
 	return thing
 
